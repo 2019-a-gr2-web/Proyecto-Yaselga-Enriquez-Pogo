@@ -1,11 +1,11 @@
-import {Column, Entity, ManyToOne, OneToMany, PrimaryGeneratedColumn} from "typeorm";
+import {Column, Entity, ManyToOne, OneToMany, PrimaryGeneratedColumn, PrimaryColumn} from "typeorm";
 import { FacturaEntity } from "src/Factura/factura.entity";
 import { PedidoEntity } from "src/Pedido/pedido.entity";
 
 @Entity('cliente') // Nombre tabla
 export class ClienteEntity {
-    @PrimaryGeneratedColumn()
-    id:number;
+    @PrimaryColumn()
+    ci_cli:String;
 
     @Column({
         type: 'varchar',
@@ -73,8 +73,8 @@ export class ClienteEntity {
     @OneToMany( type => FacturaEntity, factura => factura)
     facturas: FacturaEntity[]
 
-    @OneToMany( type => PedidoEntity, pedido => pedido)
-    pedidos: PedidoEntity[]
+   // @OneToMany( type => PedidoEntity, pedido => pedido)
+ //   pedidos: PedidoEntity[]
 
 
 
