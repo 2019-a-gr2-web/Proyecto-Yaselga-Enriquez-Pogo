@@ -8,12 +8,27 @@ import { FacturaEntity } from './Factura/factura.entity';
 import { FacturaModule } from './Factura/factura.module';
 import { ClienteModule } from './Cliente/cliente.module';
 import { PedidoModule } from './Pedido/pedido.module';
+import { DetalleEntity } from './Detalle/detalle.entity';
+import { DetallePedEntity } from './DetallePed/detallePed.entity';
+import { ProductoEntity } from './Producto/producto.entity';
+import { ProveedorEntity } from './Proveedor/proveedor.entity';
+import { RepartidorEntity } from './Repartidor/repartidor.entity';
+import { DetallePedModule } from './DetallePed/detallePed.module';
+import { ProductoModule } from './Producto/producto.module';
+import { DetalleModule } from './Detalle/detalle.module';
+import { ProveedorModule } from './Proveedor/proveedor.module';
+import { RepartidorModule } from './Repartidor/repartidor.module';
 
 @Module({
   imports: [
     ClienteModule,
     PedidoModule,
     FacturaModule,
+    DetalleModule,
+    DetallePedModule,
+    ProductoModule,
+    ProveedorModule,
+    RepartidorModule,
     TypeOrmModule.forRoot({
         name: 'default', // Nombre cadena conex por defecto de TYPEORM
         type: 'mysql',
@@ -25,9 +40,14 @@ import { PedidoModule } from './Pedido/pedido.module';
         entities: [
             ClienteEntity,
             PedidoEntity,
-            FacturaEntity
+            FacturaEntity,
+            DetalleEntity,
+            DetallePedEntity,
+            ProductoEntity,
+            ProveedorEntity,
+            RepartidorEntity
         ],
-        synchronize: true,
+        synchronize: false,
         insecureAuth : true,
         dropSchema: false
     }),

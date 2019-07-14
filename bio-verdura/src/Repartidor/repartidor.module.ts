@@ -1,12 +1,12 @@
 import {Module} from "@nestjs/common";
 import {TypeOrmModule} from "@nestjs/typeorm";
-import { ProveedorEntity } from "./proveedor.entity";
+import { RepartidorEntity } from "./repartidor.entity";
 
 @Module({
     imports: [
         TypeOrmModule.forFeature(
             [
-                ProveedorEntity
+                RepartidorEntity
             ],
             'default'
         ),
@@ -15,5 +15,5 @@ import { ProveedorEntity } from "./proveedor.entity";
     providers: [], // Servicios
     exports: [] // Exportar Servicios
 })
-export class ProveedorModule {
+export class RepartidorModule {
 }
