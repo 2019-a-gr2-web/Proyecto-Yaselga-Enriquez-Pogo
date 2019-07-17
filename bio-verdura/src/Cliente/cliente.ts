@@ -1,5 +1,5 @@
 export interface Cliente {
-    id: number;
+    ci_cli:String;
     nombre: string;
     apellido:string;
     telefono:string;

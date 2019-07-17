@@ -12,7 +12,7 @@ export class ClienteEntity {
         length: 20,
         name: 'nombre',
     })
-    nom_cli: string;
+    nombre: string;
 
     @Column({
         type: 'varchar',
@@ -73,8 +73,8 @@ export class ClienteEntity {
     @OneToMany( type => FacturaEntity, factura => factura)
     facturas: FacturaEntity[]
 
-   // @OneToMany( type => PedidoEntity, pedido => pedido)
- //   pedidos: PedidoEntity[]
+    @OneToMany( type => PedidoEntity, pedido => pedido)
+    pedidos: PedidoEntity[]
 
 
 

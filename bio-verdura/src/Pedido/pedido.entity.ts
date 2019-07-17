@@ -1,4 +1,4 @@
-import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany } from "typeorm";
+import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany, JoinColumn } from "typeorm";
 import { ClienteEntity } from "src/Cliente/cliente.entity";
 import { RepartidorEntity } from "src/Repartidor/repartidor.entity";
 import { DetallePedEntity } from "src/DetallePed/detallePed.entity";
@@ -16,14 +16,22 @@ export class PedidoEntity {
 
     @Column()
     fecha_entrega: Date
-//
-   // @ManyToOne(type => ClienteEntity, cliente => cliente.pedidos)
-   // cliente: ClienteEntity
 
-   // @ManyToOne(type => RepartidorEntity, repartidor => repartidor.pedidos)
-    //repartidor: RepartidorEntity
+    @Column()
+    cliente_id:String
 
-    //@OneToMany(type => DetallePedEntity, detallePed => detallePed.pedido)
-    //detallesPed: DetallePedEntity[]
+    @Column()
+    repartidor_id:String
+
+    @ManyToOne(type => ClienteEntity, cliente => cliente.pedidos)
+    @JoinColumn({name: 'cliente_id'})
+    cliente: ClienteEntity
+
+    @ManyToOne(type => RepartidorEntity, repartidor => repartidor.pedidos)
+    @JoinColumn({name: 'repartidor_id'})
+    repartidor: RepartidorEntity
+
+    @OneToMany(type => DetallePedEntity, detallePed => detallePed.pedido)
+    detallesPed: DetallePedEntity[]
 
 }
