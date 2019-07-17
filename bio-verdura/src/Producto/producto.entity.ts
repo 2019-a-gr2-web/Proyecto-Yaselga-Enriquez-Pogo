@@ -1,4 +1,4 @@
-import { Entity, Generated, PrimaryGeneratedColumn, Column, OneToMany, ManyToOne } from "typeorm";
+import { Entity, Generated, PrimaryGeneratedColumn, Column, OneToMany, ManyToOne, JoinColumn } from "typeorm";
 import { DetallePedEntity } from "src/DetallePed/detallePed.entity";
 import { DetalleEntity } from "src/Detalle/detalle.entity";
 import { type } from "os";
@@ -24,6 +24,9 @@ export class ProductoEntity {
     @Column()
     estado_prod:Boolean
 
+    @Column()
+    proveedor_id:Number
+
     @OneToMany(type => DetallePedEntity, detallePed => detallePed.producto)
     detallesPed:DetallePedEntity[]
 
@@ -31,5 +34,6 @@ export class ProductoEntity {
     detalles:DetalleEntity[]
 
     @ManyToOne(type => ProveedorEntity, proveedor => proveedor.productos)
+    @JoinColumn({name: 'proveedor_id'})
     proveedor: ProductoEntity
 }

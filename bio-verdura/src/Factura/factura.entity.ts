@@ -1,4 +1,4 @@
-import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany } from "typeorm";
+import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany, JoinColumn } from "typeorm";
 import { ClienteEntity } from "src/Cliente/cliente.entity";
 import { DetalleEntity } from "src/Detalle/detalle.entity";
 
@@ -16,7 +16,11 @@ export class FacturaEntity {
     @Column()
     fecha_entrega:Date
 
+    @Column()
+    cliente_id: String
+
     @ManyToOne(type => ClienteEntity, cliente => cliente.facturas)
+    @JoinColumn({name: 'cliente_id'})
     cliente: ClienteEntity;
 
     @OneToMany(type => DetalleEntity, detalle => detalle.factura)

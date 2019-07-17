@@ -1,6 +1,8 @@
 import {Module} from "@nestjs/common";
 import {TypeOrmModule} from "@nestjs/typeorm";
 import { DetalleEntity } from "./detalle.entity";
+import { detalleController } from "./detalle.controller";
+import { DetalleService } from "./detalle.service";
 
 @Module({
     imports: [
@@ -11,9 +13,9 @@ import { DetalleEntity } from "./detalle.entity";
             'default'
         ),
     ],  // Modulos
-    controllers: [], // Controladores
-    providers: [], // Servicios
-    exports: [] // Exportar Servicios
+    controllers: [detalleController], // Controladores
+    providers: [DetalleService], // Servicios
+    exports: [DetalleService] // Exportar Servicios
 })
 export class DetalleModule {
 }

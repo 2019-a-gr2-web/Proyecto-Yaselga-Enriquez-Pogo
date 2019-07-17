@@ -18,8 +18,8 @@ export class RepartidorEntity {
     @Column()
     estado_rep:boolean
 
-//    @OneToMany(type => PedidoEntity, pedido => pedido.repartidor)
-  //  pedidos: PedidoEntity[]
+    @OneToMany(type => PedidoEntity, pedido => pedido.repartidor)
+    pedidos: PedidoEntity[]
 
     
 }
