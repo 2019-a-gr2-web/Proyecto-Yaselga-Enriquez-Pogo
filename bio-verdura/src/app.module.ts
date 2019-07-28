@@ -35,7 +35,7 @@ import { RepartidorModule } from './Repartidor/repartidor.module';
         host: 'localhost',
         port: 3306,
         username: 'root',
-        password: 'password',
+        password: 'Sistemas.2019',
         database: 'bio_verdura',
         entities: [
             ClienteEntity,
@@ -45,11 +45,11 @@ import { RepartidorModule } from './Repartidor/repartidor.module';
             DetallePedEntity,
             ProductoEntity,
             ProveedorEntity,
-            RepartidorEntity
+            RepartidorEntity,
         ],
         synchronize: false,
         insecureAuth : true,
-        dropSchema: false
+        dropSchema: false,
     }),
   ], // Modulos
   controllers: [AppController],
