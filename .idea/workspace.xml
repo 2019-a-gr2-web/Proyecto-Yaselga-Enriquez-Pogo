@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df379a74-f595-4ae3-9dc9-16e996708fa5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bio-verdura/src/Login/login.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bio-verdura/src/Login/login.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bio-verdura/src/Login/login.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bio-verdura/views/cliente/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bio-verdura/views/factura/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bio-verdura/views/login/signup.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bio-verdura/views/pages/home.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bio-verdura/views/pages/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bio-verdura/views/partials/layout-footer.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bio-verdura/views/partials/layout-header.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bio-verdura/views/partials/layout-navbar.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bio-verdura/views/pedido/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bio-verdura/views/producto/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bio-verdura/views/proveedor/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bio-verdura/views/repartidor/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bio-verdura/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/bio-verdura/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bio-verdura/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bio-verdura/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bio-verdura/src/Producto/producto.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bio-verdura/src/Producto/producto.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bio-verdura/src/Producto/producto.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bio-verdura/src/Producto/producto.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bio-verdura/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bio-verdura/src/app.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bio-verdura/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bio-verdura/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bio-verdura/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bio-verdura/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bio-verdura/views/login/login.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/bio-verdura/views/login/login.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bio-verdura/views/partials/head.ejs" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bio-verdura/src/app.controller.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#74#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bio-verdura/tslint.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bio-verdura/views/cliente/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="19" selection-start-line="19" selection-end-line="33" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bio-verdura/views/factura/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bio-verdura/views/pedido/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bio-verdura/views/producto/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bio-verdura/views/proveedor/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bio-verdura/views/repartidor/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bio-verdura/src/main.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="16" selection-start-line="16" selection-end-line="23" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#133#168#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bio-verdura/src/Cliente/cliente.controller.ts" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/partials/head.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/cliente/Registrar.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/src/Cliente/cliente.ts" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/login/index.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/src/Login/login.service.ts" />
+        <option value="$PROJECT_DIR$/bio-verdura/src/Login/login.module.ts" />
+        <option value="$PROJECT_DIR$/bio-verdura/src/Login/login.controller.ts" />
+        <option value="$PROJECT_DIR$/bio-verdura/src/app.module.ts" />
+        <option value="$PROJECT_DIR$/bio-verdura/src/Login/head.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/src/Login/footer.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/profile/navbar.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/login/profile.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/partials/layout.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/login/login.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/login/signup.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/partials/navbar.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/pages/index.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/pages/home.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/partials/layout-footer.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/partials/layout-header.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/src/Producto/producto.controller.ts" />
+        <option value="$PROJECT_DIR$/bio-verdura/src/Producto/producto.service.ts" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/partials/layout-navbar.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/cliente/index.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/factura/index.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/pedido/index.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/producto/index.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/proveedor/index.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/views/repartidor/index.ejs" />
+        <option value="$PROJECT_DIR$/bio-verdura/src/main.ts" />
+        <option value="$PROJECT_DIR$/bio-verdura/src/app.controller.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Proyecto-Yaselga-Enriquez-Pogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto-Yaselga-Enriquez-Pogo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto-Yaselga-Enriquez-Pogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto-Yaselga-Enriquez-Pogo" type="462c0819:PsiDirectoryNode" />
+              <item name="bio-verdura" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto-Yaselga-Enriquez-Pogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto-Yaselga-Enriquez-Pogo" type="462c0819:PsiDirectoryNode" />
+              <item name="bio-verdura" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bio-verdura/views/Factura" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\USUARIO\Documents\GitHub\Proyecto-Yaselga-Enriquez-Pogo\bio-verdura\node_modules\prettier" />
+    <property name="ts.external.directory.path" value="C:\Users\USUARIO\Documents\GitHub\Proyecto-Yaselga-Enriquez-Pogo\bio-verdura\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USUARIO\Documents\GitHub\Proyecto-Yaselga-Enriquez-Pogo\bio-verdura\views\Factura" />
+      <recent name="C:\Users\USUARIO\Documents\GitHub\Proyecto-Yaselga-Enriquez-Pogo\bio-verdura\views\cliente" />
+      <recent name="C:\Users\USUARIO\Documents\GitHub\Proyecto-Yaselga-Enriquez-Pogo\bio-verdura\views\repartidor" />
+      <recent name="C:\Users\USUARIO\Documents\GitHub\Proyecto-Yaselga-Enriquez-Pogo\bio-verdura\views\proveedor" />
+      <recent name="C:\Users\USUARIO\Documents\GitHub\Proyecto-Yaselga-Enriquez-Pogo\bio-verdura\views\pedido" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USUARIO\Documents\GitHub\Proyecto-Yaselga-Enriquez-Pogo\bio-verdura\views" />
+      <recent name="C:\Users\USUARIO\Documents\GitHub\Proyecto-Yaselga-Enriquez-Pogo\bio-verdura\src\Cliente" />
+      <recent name="C:\Users\USUARIO\Documents\GitHub\Proyecto-Yaselga-Enriquez-Pogo\bio-verdura\js" />
+      <recent name="C:\Users\USUARIO\Documents\GitHub\Proyecto-Yaselga-Enriquez-Pogo\bio-verdura\public" />
+      <recent name="C:\Users\USUARIO\Documents\GitHub\Proyecto-Yaselga-Enriquez-Pogo\bio-verdura\views\pages" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df379a74-f595-4ae3-9dc9-16e996708fa5" name="Default Changelist" comment="" />
+      <created>1564255019618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564255019618</updated>
+      <workItem from="1564255022368" duration="3874000" />
+      <workItem from="1564267713655" duration="335000" />
+      <workItem from="1564275464094" duration="8627000" />
+      <workItem from="1564318494882" duration="23549000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="36385000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21130952" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2857143" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21130952" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28641573" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/partials/head.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/Cliente/dto/cliente.dto.create.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/Cliente/dto/cliente.dto.update.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/Cliente/cliente.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/Repartidor/repartidor.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <folding>
+            <element signature="e#0#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/Factura/factura.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/Factura/factura.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/Cliente/cliente.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/Cliente/cliente.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/node_modules/@types/express-serve-static-core/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1595">
+          <caret line="118" column="33" selection-start-line="118" selection-start-column="33" selection-end-line="118" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/Login/login.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/node_modules/@nestjs/common/interfaces/modules/module-metadata.interface.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/Login/login.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/Login/login.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/node_modules/@nestjs/core/injector/injector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="179" column="18" selection-start-line="179" selection-start-column="18" selection-end-line="179" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/profile/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/profile/head.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/profile/navbar.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/login/profile.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/partials/layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/login/signup.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="86" column="14" lean-forward="true" selection-start-line="86" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/node_modules/ejs/lib/ejs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="362" column="28" selection-start-line="362" selection-start-column="28" selection-end-line="362" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/js/css/sb-admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5613" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/js/css/sb-admin.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/pages/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/login/login.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="5" column="43" selection-start-line="2" selection-start-column="6" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/Producto/producto.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/Producto/producto.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/Producto/producto.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/Producto/producto.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/cliente/Registrar.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/pages/home.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/Detalle/detalle.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/DetallePed/detallePed.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/Producto/producto.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/app.service.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/Detalle/detalle.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/partials/layout-footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/partials/layout-header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/pedido/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/producto/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/proveedor/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/app.controller.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/partials/layout-navbar.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/factura/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/cliente/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="19" selection-start-line="19" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" selection-start-line="16" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#133#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/views/repartidor/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/tslint.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-verdura/src/app.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
