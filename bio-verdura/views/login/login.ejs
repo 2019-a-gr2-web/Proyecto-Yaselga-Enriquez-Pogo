@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Login</title>
-    <% include ../partials/head %>
+    <% include ../partials/layout-header %>
 </head>
 <body class="login">
 <div class="container">
@@ -16,7 +16,7 @@
                 </h1>
 
                 <!-- form -->
-                <form action="/login" method="post">
+                <form action="login" method="post">
                     <div class="form-group">
                         <label for="email">Email</label>
                         <input type="email" name="email" class="form-control">
@@ -30,12 +30,12 @@
 
                 <hr>
                 <div class="text-center">
-                    <p>Registrarse? <a href="/">Registrarse</a></p>
-                    <p>regresar <a href="/"></a>.</p>
+                    <p><a href="signup">Registrarse</a></p>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<% include ../partials/layout-footer %>
 </body>
 </html>

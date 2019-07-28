@@ -2,7 +2,7 @@ import { Controller, Get, Post, Delete, Put, Res, Query, Param, Body } from "@ne
 import { Producto } from "./producto";
 import { ProductoService } from "./producto.service";
 
-@Controller('/bioverdura/producto')
+@Controller('/producto')
 export class productoController {
 
     constructor(

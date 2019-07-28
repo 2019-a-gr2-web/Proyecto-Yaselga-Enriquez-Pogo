@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <% include ../partials/layout-header.ejs %>
+</head>
+<body class="signup">
+<div class="container">
+    <div class="col-sm-6 mx-auto">
+        <div class="card mt-5">
+            <div class="card-body">
+                <!-- messages -->
+                <h1 class="text-center">
+                    <span class="fa fa-sign-in"></span> Registro
+                </h1>
+                <!-- form -->
+                <form action="signup" method="post">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label for="ci_cli">C.I.</label>
+                                <input type="text" name="ci_cli" class="form-control">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="telefono">telefono</label>
+                                <input type="text" name="telefono" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label for="nombre">nombre</label>
+                                <input type="text" name="nombre" class="form-control">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="apellido">apellido</label>
+                                <input type="text" name="apellido" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <label for="correo">Email</label>
+                                <input type="text" name="correo" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label for="direccion_callePrincipal">Calle Principal</label>
+                                <input type="text" name="direccion_callePrincipal" class="form-control">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="direccion_calleSecundaria">Calle Secundaria</label>
+                                <input type="text" name="direccion_calleSecundaria" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label for="direccion_numero">Número</label>
+                                <input type="text" name="direccion_numero" class="form-control">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="direccion_sector">Sector</label>
+                                <input type="text" name="direccion_sector" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label for="password">Password</label>
+                                <input type="password" name="email" class="form-control">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="password_confirm">Confirmar Password</label>
+                                <input type="password_confirm" name="email" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" class="btn btn-dark btn-lg" value="Registrar">
+                </form>
+
+                <hr>
+                <div class="text-center">
+                    <p>¿Ya tienes una cuenta? <a href="login">Login</a></p>
+                    <p><a href="index">Pagina Princial</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<% include ../partials/layout-footer %>
+</body>
+</html>

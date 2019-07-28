@@ -18,9 +18,12 @@ import { ProductoModule } from './Producto/producto.module';
 import { DetalleModule } from './Detalle/detalle.module';
 import { ProveedorModule } from './Proveedor/proveedor.module';
 import { RepartidorModule } from './Repartidor/repartidor.module';
+import {LoginModule} from './Login/login.module';
+
 
 @Module({
   imports: [
+      LoginModule,
     ClienteModule,
     PedidoModule,
     FacturaModule,
