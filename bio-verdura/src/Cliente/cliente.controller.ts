@@ -1,6 +1,7 @@
 import { Controller, Get, Post, Delete, Put, Res, Query, Param, Body } from "@nestjs/common";
 import { Cliente } from "./cliente";
 import { ClienteService } from "./cliente.service";
+import { stringify } from "querystring";
 
 @Controller('/bioverdura/cliente')
 export class ClienteController {
@@ -21,6 +22,7 @@ export class ClienteController {
         @Body('direccion_numero') direccion_numero:string,
         @Body('direccion_sector') direccion_sector:string,
         @Body('direccion_referencia') direccion_referencia:string,
+        @Body('password') password: string,
         @Res() res
     ){
         const Cliente:Cliente = {
@@ -29,6 +31,7 @@ export class ClienteController {
             apellido:apellido,
             telefono:telefono,
             correo:correo,
+            password:password,
             direccion_callePrincipal:direccion_callePrincipal,
             direccion_calleSecundaria:direccion_calleSecundaria,
             direccion_numero:direccion_numero,
@@ -88,6 +91,7 @@ export class ClienteController {
         @Body('direccion_numero') direccion_numero:string,
         @Body('direccion_sector') direccion_sector:string,
         @Body('direccion_referencia') direccion_referencia:string,
+        @Body('password') password: string,
         @Res() res
     ){
         try{
@@ -97,6 +101,7 @@ export class ClienteController {
                 apellido:apellido,
                 telefono:telefono,
                 correo:correo,
+                password:password,
                 direccion_callePrincipal:direccion_callePrincipal,
                 direccion_calleSecundaria:direccion_calleSecundaria,
                 direccion_numero:direccion_numero,

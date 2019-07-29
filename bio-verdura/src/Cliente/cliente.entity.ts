@@ -70,6 +70,13 @@ export class ClienteEntity {
     })
     direccion_referencia:string;
 
+    @Column({
+        type: 'varchar',
+        length: 10,
+        name: 'password'
+    })
+    password:string;
+
     @OneToMany( type => FacturaEntity, factura => factura)
     facturas: FacturaEntity[]
 

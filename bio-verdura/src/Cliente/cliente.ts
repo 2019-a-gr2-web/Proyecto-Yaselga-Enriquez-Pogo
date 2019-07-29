@@ -4,6 +4,7 @@ export interface Cliente {
     apellido:string;
     telefono:string;
     correo:string;
+    password:string;
 
     direccion_callePrincipal:string;
     direccion_calleSecundaria:string;
